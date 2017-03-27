@@ -1,0 +1,60 @@
+body
+{
+    background: grey;   
+}
+.nav
+{
+    width: 100%;
+    text-align: center;
+    top:0;
+}
+.nav > ul
+{
+    list-style-type: none;
+    background-color: green;
+}
+.nav > ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+}
+.mainform
+{
+    background:rgba(50,30,71,0.35);
+    padding:10px;
+    height: 250px;
+}
+.mainform input 
+{
+    width: 200px;
+    margin-bottom:10px;
+}
+.mainform select
+{
+    width: 200px;
+}
+.submitbutton
+{
+    background: green;
+    border-style: ridge;
+    border-radius: 5px;
+}
+
+.footerFinal
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background:green;
+}
+
+
+.centerfoot
+{
+
+    float: right;
+    text-align: center;
+    width: 100%;
+}
